@@ -1,136 +1,95 @@
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Welkom ^_^ </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>★ Sam's Internet Corner ★</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
+
 <body>
-
-  <header class="topbar">
-    <strong>My Computer</strong>
-
-    <nav>
-      <a href="#home">Home</a>
-
-      <div class="dropdown">
-        <button class="drop-button">School topics ▾</button>
-        <div class="dropdown-menu">
-          <button data-open="binary">Binary system</button>
-          <button data-open="colors">Color models</button>
-          <button data-open="compression">Compression</button>
-          <button data-open="ai">AI</button>
-        </div>
-      </div>
-    </nav>
+  <header class="site-header">
+    <h1>★ WELCOME TO MY LITTLE CORNER ★</h1>
+    <p>~ best viewed with curiosity ~</p>
+    <marquee>Welcome!! Thanks for visiting my website!! ★</marquee>
   </header>
 
-  <main class="desktop" id="home">
+  <div class="page-layout">
 
-    <div class="icons">
-      <button class="desktop-icon" data-open="about">
-        <span>🖥️</span>
-        About me
-      </button>
+    <aside class="sidebar">
+      <section class="box">
+        <h2>Navigation</h2>
+        <a href="index.html">🏠 Home</a>
+        <a href="binary.html">🔢 Binary system</a>
+        <a href="colors.html">🎨 Color models</a>
+        <a href="compression.html">💿 Compression</a>
+        <a href="ai.html">🤖 Artificial intelligence</a>
+      </section>
 
-      <button class="desktop-icon" data-open="binary">
-        <span>🔢</span>
-        Binary
-      </button>
+      <section class="box">
+        <h2>About me</h2>
+        <p>☆ Your name ☆</p>
+        <p>My interests: [your hobbies]</p>
+      </section>
 
-      <button class="desktop-icon" data-open="colors">
-        <span>🎨</span>
-        Color models
-      </button>
+      <section class="box">
+        <h2>My buttons</h2>
+        <p>☆ Made with HTML + CSS ☆</p>
+        <p>★ Learning how computers work ★</p>
+      </section>
+    </aside>
 
-      <button class="desktop-icon" data-open="compression">
-        <span>🗜️</span>
-        Compression
-      </button>
+    <main class="main-content">
+      <section class="box welcome">
+        <h2>Welcome to my website!!</h2>
 
-      <button class="desktop-icon" data-open="ai">
-        <span>🤖</span>
-        AI
-      </button>
-    </div>
+        <img
+          class="float-image"
+          src="images/decoration.gif"
+          alt="A little animated decoration">
 
-    <section class="window" id="about">
-      <div class="titlebar">
-        <span>About me</span>
-        <button class="close" aria-label="Close window">×</button>
-      </div>
-      <div class="window-content">
-        <h2>Welcome to my website!</h2>
-        <p>Hi! I'm [your name]. Welcome to my digital desktop.</p>
-        <p>I enjoy [your hobbies and interests].</p>
-        <p>This website is my school project about ICT.</p>
-      </div>
-    </section>
+        <p>Hi!! My name is [your name]. Welcome to my website!</p>
 
-    <section class="window" id="binary" hidden>
-      <div class="titlebar">
-        <span>Binary system</span>
-        <button class="close" aria-label="Close window">×</button>
-      </div>
-      <div class="window-content">
-        <h2>How does binary work?</h2>
-        <p>Computers represent data using bits: 0 and 1.</p>
-        <p>Each position represents a power of two.</p>
-        <p>Example: 101 in binary = 5 in decimal.</p>
-        <a href="https://www.binarybonanza.com/">
-          Try Binary Bonanza
-        </a>
-      </div>
-    </section>
+        <p>
+          This is my own little corner of the internet.
+          I'm using it to share information about myself
+          and explain how computers work.
+        </p>
 
-    <section class="window" id="colors" hidden>
-      <div class="titlebar">
-        <span>Color models</span>
-        <button class="close" aria-label="Close window">×</button>
-      </div>
-      <div class="window-content">
-        <h2>How do screens display color?</h2>
-        <p>RGB combines red, green, and blue light.</p>
-        <p>CMYK uses cyan, magenta, yellow, and black ink.</p>
-      </div>
-    </section>
+        <p>
+          Feel free to explore the different pages using
+          the links on the left!
+        </p>
+      </section>
 
-    <section class="window" id="compression" hidden>
-      <div class="titlebar">
-        <span>Compression</span>
-        <button class="close" aria-label="Close window">×</button>
-      </div>
-      <div class="window-content">
-        <h2>Bitmap vs vector</h2>
-        <p>Bitmap images consist of pixels.</p>
-        <p>Vector graphics use mathematical shapes.</p>
-      </div>
-    </section>
+      <section class="box">
+        <h2>★ About this project ★</h2>
+        <p>
+          This website was created for my school project.
+          It covers binary numbers, color models,
+          image compression, and artificial intelligence.
+        </p>
+      </section>
 
-    <section class="window" id="ai" hidden>
-      <div class="titlebar">
-        <span>Artificial intelligence</span>
-        <button class="close" aria-label="Close window">×</button>
-      </div>
-      <div class="window-content">
-        <h2>AI in everyday life</h2>
-        <p>I use AI for [your own examples].</p>
-        <p>My phone uses AI for [features on your phone].</p>
-        <p>I have learned [what you have learned from AI].</p>
-      </div>
-    </section>
+      <section class="box">
+        <h2>Currently working on...</h2>
+        <p>♫ Adding pictures, links, and cool decorations!</p>
+        <p>Last updated: [your date]</p>
+      </section>
 
-  </main>
+      <section class="box">
+        <h2>Cool places to visit</h2>
+        <a href="binary.html">Learn about binary →</a>
+        <a href="colors.html">Explore color models →</a>
+        <a href="compression.html">Bitmap vs vector →</a>
+        <a href="ai.html">AI in everyday life →</a>
+      </section>
+    </main>
+  </div>
 
-  <footer class="taskbar">
-    <span>🪟 Start</span>
-    <span>My Retro Computer</span>
+  <footer>
+    <p>★ Thanks for visiting my page! Come back soon! ★</p>
   </footer>
-
 </body>
 </html>
-
-
