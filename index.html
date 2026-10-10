@@ -1,24 +1,136 @@
-<!DOCTYPE html> <!--Welkom 2 my webpage -->
-<html> <!--Kut element-->
- <head> 
-    <title> OBLITERATE </title>
-    <meta charset="utf-8">
- </head> 
- <body> 
-</h6> WELKOME 2 ME WEBSITE 
 
- <br>
- <br>
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Welkom ^_^ </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
 
- <a href="binairstelsel.html"> cool people page </a>
+  <header class="topbar">
+    <strong>My Computer</strong>
 
- <br>
- <br>
+    <nav>
+      <a href="#home">Home</a>
 
- <img src="images.webp>" alt="Great Tit">
+      <div class="dropdown">
+        <button class="drop-button">School topics ▾</button>
+        <div class="dropdown-menu">
+          <button data-open="binary">Binary system</button>
+          <button data-open="colors">Color models</button>
+          <button data-open="compression">Compression</button>
+          <button data-open="ai">AI</button>
+        </div>
+      </div>
+    </nav>
+  </header>
 
- <br>
- <br>
+  <main class="desktop" id="home">
 
- </body>
+    <div class="icons">
+      <button class="desktop-icon" data-open="about">
+        <span>🖥️</span>
+        About me
+      </button>
+
+      <button class="desktop-icon" data-open="binary">
+        <span>🔢</span>
+        Binary
+      </button>
+
+      <button class="desktop-icon" data-open="colors">
+        <span>🎨</span>
+        Color models
+      </button>
+
+      <button class="desktop-icon" data-open="compression">
+        <span>🗜️</span>
+        Compression
+      </button>
+
+      <button class="desktop-icon" data-open="ai">
+        <span>🤖</span>
+        AI
+      </button>
+    </div>
+
+    <section class="window" id="about">
+      <div class="titlebar">
+        <span>About me</span>
+        <button class="close" aria-label="Close window">×</button>
+      </div>
+      <div class="window-content">
+        <h2>Welcome to my website!</h2>
+        <p>Hi! I'm [your name]. Welcome to my digital desktop.</p>
+        <p>I enjoy [your hobbies and interests].</p>
+        <p>This website is my school project about ICT.</p>
+      </div>
+    </section>
+
+    <section class="window" id="binary" hidden>
+      <div class="titlebar">
+        <span>Binary system</span>
+        <button class="close" aria-label="Close window">×</button>
+      </div>
+      <div class="window-content">
+        <h2>How does binary work?</h2>
+        <p>Computers represent data using bits: 0 and 1.</p>
+        <p>Each position represents a power of two.</p>
+        <p>Example: 101 in binary = 5 in decimal.</p>
+        <a href="https://www.binarybonanza.com/">
+          Try Binary Bonanza
+        </a>
+      </div>
+    </section>
+
+    <section class="window" id="colors" hidden>
+      <div class="titlebar">
+        <span>Color models</span>
+        <button class="close" aria-label="Close window">×</button>
+      </div>
+      <div class="window-content">
+        <h2>How do screens display color?</h2>
+        <p>RGB combines red, green, and blue light.</p>
+        <p>CMYK uses cyan, magenta, yellow, and black ink.</p>
+      </div>
+    </section>
+
+    <section class="window" id="compression" hidden>
+      <div class="titlebar">
+        <span>Compression</span>
+        <button class="close" aria-label="Close window">×</button>
+      </div>
+      <div class="window-content">
+        <h2>Bitmap vs vector</h2>
+        <p>Bitmap images consist of pixels.</p>
+        <p>Vector graphics use mathematical shapes.</p>
+      </div>
+    </section>
+
+    <section class="window" id="ai" hidden>
+      <div class="titlebar">
+        <span>Artificial intelligence</span>
+        <button class="close" aria-label="Close window">×</button>
+      </div>
+      <div class="window-content">
+        <h2>AI in everyday life</h2>
+        <p>I use AI for [your own examples].</p>
+        <p>My phone uses AI for [features on your phone].</p>
+        <p>I have learned [what you have learned from AI].</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="taskbar">
+    <span>🪟 Start</span>
+    <span>My Retro Computer</span>
+  </footer>
+
+</body>
 </html>
+
+
